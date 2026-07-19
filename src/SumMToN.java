@@ -9,5 +9,14 @@ public class SumMToN {
             m++;
         }
         System.out.println(sum);
+
+        m = 20;
+        sum = 0;
+
+        do {
+            sum += m;
+            m++;
+        } while (m <= n);
+        System.out.println(sum);
     }
 }
