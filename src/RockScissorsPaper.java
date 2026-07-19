@@ -13,7 +13,7 @@ public class RockScissorsPaper {
             System.out.println("平局");
         } else {
             String result = switch (user) {
-                case 1 -> computer == 3 ? "You Lost!" : "Your Win!";~
+                case 1 -> computer == 3 ? "You Lost!" : "Your Win!";
                 case 2 -> computer == 1 ? "You Lost!" : "Your Win!";
                 case 3 -> computer == 2 ? "You Lost!" : "Your Win!";
                 default -> "Please input the valid number!";
