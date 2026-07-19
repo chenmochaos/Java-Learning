@@ -1,0 +1,7 @@
+# Java bytecode files
+*.class
+
+# Compiled output directories
+out/
+build/
+target/
