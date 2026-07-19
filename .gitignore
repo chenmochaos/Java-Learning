@@ -5,3 +5,7 @@
 out/
 build/
 target/
+
+# IDE config
+.idea/
+*.iml
