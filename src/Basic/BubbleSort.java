@@ -1,3 +1,5 @@
+package Basic;
+
 import java.util.Arrays;
 
 public class BubbleSort {
@@ -8,10 +10,9 @@ public class BubbleSort {
         for (int i = ns.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
                 if (ns[j] > ns[j + 1]) {
-                    // 交换 nums[j] 与 nums[j + 1]
-                    int tmp = ns[j];
+                    int temp = ns[j];
                     ns[j] = ns[j + 1];
-                    ns[j + 1] = tmp;
+                    ns[j + 1] = temp;
                 }
             }
         }
@@ -33,7 +34,6 @@ public class BubbleSort {
         } else {
             System.out.println("测试失败");
         }
-
 
         Arrays.sort(ns);
         System.out.println(Arrays.toString(ns));

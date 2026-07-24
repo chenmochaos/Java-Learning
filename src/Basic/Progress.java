@@ -1,3 +1,5 @@
+package Basic;
+
 import java.util.Scanner;
 
 public class Progress {
@@ -8,6 +10,6 @@ public class Progress {
         System.out.print("Input your this score: ");
         int thisScore = scanner.nextInt();
         double progress = (thisScore - lastScore + 0.0) / lastScore * 100;
-        System.out.printf("%.2f%%",progress);
+        System.out.printf("%.2f%%", progress);
     }
 }

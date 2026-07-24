@@ -1,3 +1,5 @@
+package Basic;
+
 public class ForLoop {
     public static void main(String[] args) {
         int[] ns = {1, 4, 9, 16, 25};
